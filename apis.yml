@@ -1,9 +1,27 @@
 aid: buncha
 name: Buncha
-description: 'Buncha is a company surfaced as a portfolio company of foundry-group, techstars and added
-  to the API Evangelist network as a stub for enrichment. Sector: e-commerce. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Buncha is a scheduled neighborhood grocery delivery service operating
+  across Minnesota and Michigan. Customers shop online from local partner retailers
+  and receive their orders on set weekly routes, with a single refrigerated van consolidating
+  multiple neighbors'' orders into one trip for a $3.45 flat delivery fee. Professional
+  personal shoppers hand-pick items into insulated bags, and the aggregated-route
+  model is positioned to cut delivery CO2 emissions by up to 80% versus on-demand
+  services. Buncha is offered through iOS and Android consumer apps and is backed by
+  Foundry Group and Techstars. It is currently a consumer product with no public developer
+  API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/buncha/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.wixstatic.com/media/964bd6_a70b9ba767c141eca92107bd56519dc9~mv2.png/v1/crop/x_64,y_0,w_2838,h_797/fill/w_210,h_59,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/___fulllogo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - E Commerce
+- Grocery
+- Delivery
+- Logistics
+- Consumer
+- Sustainability
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.gobuncha.com
+- type: Blog
+  url: https://www.gobuncha.com/blog
+- type: SignUp
+  url: https://www.gobuncha.com/download-buncha
+- type: TermsOfService
+  url: https://www.gobuncha.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.gobuncha.com/privacy-policy
+- type: DomainSecurity
+  url: security/buncha-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
